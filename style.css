@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.qr-card {
+    background: hsl(0, 0%, 100%);
+    padding: 4vh 2vw;
+    margin: 5vh;
+    border-radius: 24px;
+}
+
+.qr-img {
+    /* display: flex;
+    justify-content: center;
+    border-radius: 14px; */
+}
+
+.qr-img img {
+    width: 100%;
+    object-fit: cover;
+}
